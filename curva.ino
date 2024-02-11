@@ -137,25 +137,6 @@ ptr +="<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,60
  
 ptr +="<title>ESP32 Weather Report</title>\n";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ptr +="<script>\n";
 
 ptr +="setInterval(loadDoc,200);\n";
@@ -179,26 +160,6 @@ ptr +="xhttp.send();\n";
 ptr +="}\n";
 
 ptr +="</script>\n";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 ptr +="<style>html { font-family: 'Open Sans', sans-serif; display: block; margin: 0px auto; text-align: center;color: #333333;}\n";
  
@@ -238,15 +199,12 @@ ptr +="</head>\n";
  
 ptr +="<body>\n";
  
- 
- 
 ptr +="<div id=\"webpage\">\n";
- 
- 
- 
+
+
+
 ptr +="<h1>ESP32 Weather Report</h1>\n";
 
- 
 ptr +="<div class=\"data\">\n";
  
 ptr +="<div class=\"side-by-side temperature-icon\">\n";
@@ -279,7 +237,6 @@ ptr +="<span class=\"superscript\">C</span></div>\n";
  
 ptr +="</div>\n";
 
- 
 ptr +="<div class=\"data\">\n";
  
 ptr +="<div class=\"side-by-side humidity-icon\">\n";
@@ -304,10 +261,6 @@ ptr +="<span class=\"superscript\">%</span></div>\n";
  
 ptr +="</div>\n";
 
-
-
-
-
 ptr +="<div class=\"data\">\n";
  
 ptr +="<div class=\"side-by-side coo-icon\">\n";
@@ -331,11 +284,6 @@ ptr +=(int)co2_value_stat;
 ptr +="<span class=\"superscript-coo\">ppm</span></div>\n";
  
 ptr +="</div>\n";
-
- 
- //ptr += "<p>CO2 level: ";
-  //ptr += (int) co2_value_stat;
-  //ptr += "ppm</p>";
  
 ptr +="</div>\n";
  
